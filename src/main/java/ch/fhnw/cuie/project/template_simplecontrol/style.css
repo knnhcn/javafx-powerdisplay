@@ -1,0 +1,56 @@
+.powerdisplay {
+    -fx-padding: 5;
+    -fx-background-color: #ffffff;
+    -base-color: rgb(2, 138, 204);
+}
+
+.powerdisplay .frame {
+    -fx-fill: #707374;
+}
+
+.powerdisplay .display {
+    -fx-fill: -base-color;
+}
+
+.powerdisplay .arc-inner-circle {
+    -fx-fill: -base-color;
+    -fx-stroke: -base-color;
+}
+
+.powerdisplay .ring {
+    -fx-fill: #484B4B;
+}
+
+.powerdisplay .hub-below {
+    -fx-fill: #7D7D7D;
+}
+
+.powerdisplay .pointer {
+    -fx-fill: #000000;
+    -fx-stroke: #000000;
+}
+
+.powerdisplay .hub-above {
+    -fx-fill: #DDDDDD;
+}
+
+.powerdisplay .tick {
+    -fx-stroke: #CBCBCB;
+}
+
+.powerdisplay .glass {
+    -fx-fill: radial-gradient(center 5% 5%, radius 60%,
+    rgba(173, 232, 240, 0.8)   0%,
+    transparent              100%);
+    -fx-rotate: 260;
+}
+
+.powerdisplay .shine-left {
+    -fx-fill: #FFFFFF;
+    -fx-opacity: 0.2;
+}
+
+.powerdisplay .shine-right {
+    -fx-fill: #FFFFFF;
+    -fx-opacity: 0.2;
+}
